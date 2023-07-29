@@ -1,0 +1,27 @@
+Orchestration is all about managing the lifecycles of containers, especially in large, 
+dynamic environments. Orchestration tools help in deployment, scaling, networking, and 
+availability of containers. Kubernetes is the leading container orchestration platform.
+
+Container orchestration offers several benefits:
+
+    Service discovery and load balancing: Orchestration tools can distribute network traffic 
+                                            to maintain the balance across the containers to 
+                                            ensure no single container is burdened.
+
+    Storage orchestration: Orchestration allows you to automatically mount a storage system of 
+                            your choice, such as local storage, public cloud providers, and more.
+
+    Automated rollouts and rollbacks: You can describe the desired state for your deployed 
+                                        containers using orchestration, and the system changes 
+                                        the actual state to the desired state at a controlled 
+                                        rate.
+
+    Automatic bin packing: You provide the orchestration system with a cluster of nodes that it 
+                            can use to run containerized tasks.
+
+    Self-healing: Orchestration replaces and reschedules containers when a node dies. It also 
+                    kills containers that don’t respond to health checks, and doesn’t advertise 
+                    them to clients until they are ready to serve.
+
+Containerization and orchestration go hand in hand in modern software delivery lifecycle, 
+especially in achieving CI/CD (Continuous Integration/Continuous Deployment).

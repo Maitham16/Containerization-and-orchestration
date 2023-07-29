@@ -1,0 +1,23 @@
+Containerization is the process of packaging an application along with its required 
+environment, configurations, libraries, and dependencies so that it can run uniformly 
+and consistently across different computing environments. A container maintains an 
+isolated environment for running the application, and this allows developers to manage 
+and worry less about the underlying system software and infrastructure. Docker is the 
+most widely used containerization platform.
+
+Containers offer several benefits:
+
+    Consistent environments: Containers include the application and all of its dependencies, 
+                                ensuring it runs the same way in every environment.
+
+    Isolation: Containers are isolated from each other on the same host, so each application 
+                can have its own libraries without conflict with others.
+
+    Portability: Containers can be run on any machine that has the container runtime, which 
+                    makes them highly portable.
+
+    Efficiency: Containers use shared operating systems, making them lighter weight than 
+                    virtual machines.
+
+Containerization and orchestration go hand in hand in modern software delivery lifecycle, 
+especially in achieving CI/CD (Continuous Integration/Continuous Deployment).
